@@ -1,68 +1,46 @@
-# CST8919 Final Oral Exam Instructions
+# Security & Compliance in the Algonquin Pet Store (On Steroids)
 
+This repository contains a PowerPoint presentation that demonstrates how modern security and compliance practices can be applied to the **Algonquin Pet Store (On Steroids)** application.
 
+## 📑 Contents
+- `Security_and_Compliance_Pet_Store_SaiKarthick_Kalidoss.pptx`  
+  Contains the presentation slides with speaker notes and an embedded system architecture diagram.
 
-## Final Oral Exam Overview
+## 🎯 Objective
+The goal of this presentation is to explain how to strengthen **security and compliance** in a cloud-native, microservices-based pet store application by leveraging industry standards and cloud-native tools.
 
-The Final Oral Exam is worth **20%** of your final grade and will be conducted via **Microsoft Teams** during **Week 14 and Week 15**.
+## 🏗 Architecture Overview
+The Algonquin Pet Store application is built using a microservices architecture. Services communicate via APIs and messaging queues. The architecture leverages cloud platforms for scalability, reliability, and security.
 
-Students will present how they would apply course concepts to the [**Algonquin Pet Store (On Steroids)**](https://github.com/ramymohamed10/algonquin-pet-store-on-steroids) application that was studied in a previous semester.
+## 🔑 Topics Covered
+1. **Architecture Overview**  
+   Understanding the Pet Store's system diagram and data flows.  
+2. **SSO & Federated Identity Management**  
+   Implementing authentication using Azure AD, AWS Cognito, or GCP Identity.  
+3. **Audit Logs & Event Analysis**  
+   Logging user actions and analyzing with Azure Monitor, AWS CloudWatch, or GCP Cloud Logging.  
+4. **Threat Detection in Audit Logs**  
+   Configuring alerts using Azure Sentinel, AWS GuardDuty, or GCP Security Command Center.  
+5. **Cloud-Native Security Tools**  
+   Leveraging Azure Security Center, AWS Inspector, and GCP Security Health Analytics.  
+6. **Organizational Policy Enforcement**  
+   Defining access and compliance rules via Azure Policy, AWS IAM SCPs, or GCP Organization Policies.  
+7. **Security Automation**  
+   Automating incident response using Azure Sentinel Playbooks, AWS Lambda, or GCP Cloud Functions.  
+8. **Best Practices & Summary**  
+   Summarizing improvements in compliance, monitoring, and automation.
 
+## ✅ Benefits
+- Enhanced **security posture** through centralized identity management.  
+- Improved **compliance** with logging, auditing, and policies.  
+- **Automation** of threat detection and incident response reduces risks.  
 
----
+## ⚠️ Challenges
+- Complexity of integrating multiple security tools.  
+- Fine-tuning alerts to reduce false positives.  
+- Balancing security requirements with performance and usability.  
 
-## Pre-Exam Deliverables (Due Early Week 14)
-
-You must submit the following items **early in Week 14** on **Brightspace**:
-
-### 1. PowerPoint Presentation
-
-Your presentation must explain **how each course topic** can be applied to improve the **security and compliance** of the **Algonquin Pet Store (On Steroids)** application.
-
-**Required Slides:**
-
-1. **Title Slide** – Include your name, student ID, course code.
-2. **Architecture Overview** – Include and describe the system diagram.
-3. **SSO & Federated Identity Management**
-   - Which services should implement SSO?
-   - Protocols (OAuth2, OpenID, SAML)?
-4. **Audit Logs & Event Analysis**
-   - What should be logged?
-   - What tools can analyze logs?
-5. **Threat Detection in Audit Logs**
-   - What alerts or triggers would you configure?
-6. **Cloud-Native Security Tools**
-   - What security tools from Azure/AWS/GCP would you integrate?
-7. **Organizational Policy Enforcement**
-   - How would you enforce business rules?
-8. **Security Automation**
-    - What workflows would you automate and with what tools?
-9. **Best Practices & Summary**
-    - Summarize how the application achieves security and compliance goals.
-
----
-
-### 2. Video Presentation
-
-- Duration: **7–10 minutes**
-- Format: **YouTube link**
-- You must **narrate and explain your PowerPoint slides**
-- Submit the video link on Brightspace alongside the PowerPoint
-
----
-
-## Exam Schedule & Format
-
-- **Platform:** Microsoft Teams  
-- **Schedule:** To be published end of **Week 13**
-- **Groups:** Assigned via Brightspace → Check "Groups" section  
-- **Meeting Link:** Found in your group description  
-- **Join Time:** Arrive **on time** and wait in the **lobby** until admitted
-
-### Exam Structure:
-1. Review of your submitted video/presentation
-2. Live Q&A to assess your understanding
-3. Discussion of security design choices
----
-Good luck, and reach out via **email** if you need clarification!
-
+## 📌 How to Use
+1. Clone this repository.
+2. Open the PowerPoint file with Microsoft PowerPoint or LibreOffice Impress.
+3. Review slides and speaker notes for detailed explanations.
